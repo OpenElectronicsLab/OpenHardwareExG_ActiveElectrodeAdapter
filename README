@@ -1,0 +1,7 @@
+# OpenHardwareExG_ActiveElectrodeAdapter
+
+This is an adapter board to simplify connecting one or more
+OpenHardwareExG_ActiveElectrode s to devices that used 0.1 inch pitch
+connectors such as the OpenHardwareExG_Shield or a breadboard.
+
+This project is in early development and is not yet ready for use.
