@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name active_electrode_connectors)(type KiCad)(uri "$(KIPRJMOD)/active_electrode_connectors.pretty")(options "")(descr ""))
+)
