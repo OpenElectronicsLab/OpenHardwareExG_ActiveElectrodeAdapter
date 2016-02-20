@@ -1,0 +1,249 @@
+(pcb /home/eric/src/OpenHardwareExG_ActiveElectrodeAdapter/OpenHardwareExG_ActiveElectrodeAdapter.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.1-4.201602132031+6195~38~ubuntu14.04.1-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  202895 -88900  76200 -88900  76200 -29210  202895 -29210
+            202895 -88900  202895 -88900)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "active_electrode_connectors:DF50A-3P-1V"
+      (place P1 100240 -36820 front 270 (PN CONN_01X03))
+      (place P2 100240 -51820 front 270 (PN CONN_01X03))
+      (place P3 100240 -66820 front 270 (PN CONN_01X03))
+      (place P4 100240 -81820 front 270 (PN CONN_01X03))
+      (place P5 120240 -36820 front 270 (PN CONN_01X03))
+      (place P6 120240 -51820 front 270 (PN CONN_01X03))
+      (place P7 120240 -66820 front 270 (PN CONN_01X03))
+      (place P8 120240 -81820 front 270 (PN CONN_01X03))
+      (place P9 140240 -36820 front 270 (PN CONN_01X03))
+      (place P10 140240 -51820 front 270 (PN CONN_01X03))
+      (place P11 140240 -66820 front 270 (PN CONN_01X03))
+      (place P12 140240 -81820 front 270 (PN CONN_01X03))
+      (place P13 160240 -36820 front 270 (PN CONN_01X03))
+      (place P14 160240 -51820 front 270 (PN CONN_01X03))
+      (place P15 160240 -66820 front 270 (PN CONN_01X03))
+      (place P16 160240 -81820 front 270 (PN CONN_01X03))
+    )
+    (component Pin_Headers:Pin_Header_Straight_1x20
+      (place P17 177800 -81280 front 180 (PN CONN_01X20))
+    )
+    (component Pin_Headers:Pin_Header_Straight_1x18
+      (place P18 193040 -81280 front 180 (PN CONN_01X18))
+    )
+    (component "Mounting_Holes:MountingHole_3-5mm"
+      (place HOLE2 185420 -33020 front 0 (PN "MountingHole_3-5mm"))
+      (place HOLE4 185420 -83820 front 0 (PN "MountingHole_3-5mm"))
+      (place HOLE1 86360 -33020 front 0 (PN "MountingHole_3-5mm"))
+      (place HOLE3 86360 -83820 front 0 (PN "MountingHole_3-5mm"))
+    )
+  )
+  (library
+    (image "active_electrode_connectors:DF50A-3P-1V"
+      (outline (path signal 150  -3000 0  3000 0))
+      (outline (path signal 150  3000 0  3000 -5670))
+      (outline (path signal 150  3000 -5670  -3000 -5670))
+      (outline (path signal 150  -3000 -5670  -3000 0))
+      (pin Rect[T]Pad_1900x2400_um @1 -2650 -2725)
+      (pin Rect[T]Pad_600x1550_um 1 1000 0)
+      (pin Rect[T]Pad_600x1550_um 2 0 0)
+      (pin Rect[T]Pad_600x1550_um 3 -1000 0)
+      (pin Rect[T]Pad_1900x2400_um @2 2650 -2725)
+    )
+    (image Pin_Headers:Pin_Header_Straight_1x20
+      (outline (path signal 50  -1750 1750  -1750 -50050))
+      (outline (path signal 50  1750 1750  1750 -50050))
+      (outline (path signal 50  -1750 1750  1750 1750))
+      (outline (path signal 50  -1750 -50050  1750 -50050))
+      (outline (path signal 150  1270 -1270  1270 -49530))
+      (outline (path signal 150  1270 -49530  -1270 -49530))
+      (outline (path signal 150  -1270 -49530  -1270 -1270))
+      (outline (path signal 150  1550 1550  1550 0))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  -1550 0  -1550 1550))
+      (outline (path signal 150  -1550 1550  1550 1550))
+      (pin Rect[A]Pad_2032x1727.2_um 1 0 0)
+      (pin Oval[A]Pad_2032x1727.2_um 2 0 -2540)
+      (pin Oval[A]Pad_2032x1727.2_um 3 0 -5080)
+      (pin Oval[A]Pad_2032x1727.2_um 4 0 -7620)
+      (pin Oval[A]Pad_2032x1727.2_um 5 0 -10160)
+      (pin Oval[A]Pad_2032x1727.2_um 6 0 -12700)
+      (pin Oval[A]Pad_2032x1727.2_um 7 0 -15240)
+      (pin Oval[A]Pad_2032x1727.2_um 8 0 -17780)
+      (pin Oval[A]Pad_2032x1727.2_um 9 0 -20320)
+      (pin Oval[A]Pad_2032x1727.2_um 10 0 -22860)
+      (pin Oval[A]Pad_2032x1727.2_um 11 0 -25400)
+      (pin Oval[A]Pad_2032x1727.2_um 12 0 -27940)
+      (pin Oval[A]Pad_2032x1727.2_um 13 0 -30480)
+      (pin Oval[A]Pad_2032x1727.2_um 14 0 -33020)
+      (pin Oval[A]Pad_2032x1727.2_um 15 0 -35560)
+      (pin Oval[A]Pad_2032x1727.2_um 16 0 -38100)
+      (pin Oval[A]Pad_2032x1727.2_um 17 0 -40640)
+      (pin Oval[A]Pad_2032x1727.2_um 18 0 -43180)
+      (pin Oval[A]Pad_2032x1727.2_um 19 0 -45720)
+      (pin Oval[A]Pad_2032x1727.2_um 20 0 -48260)
+    )
+    (image Pin_Headers:Pin_Header_Straight_1x18
+      (outline (path signal 50  -1750 1750  -1750 -44950))
+      (outline (path signal 50  1750 1750  1750 -44950))
+      (outline (path signal 50  -1750 1750  1750 1750))
+      (outline (path signal 50  -1750 -44950  1750 -44950))
+      (outline (path signal 150  1270 -1270  1270 -44450))
+      (outline (path signal 150  1270 -44450  -1270 -44450))
+      (outline (path signal 150  -1270 -44450  -1270 -1270))
+      (outline (path signal 150  1550 1550  1550 0))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  -1550 0  -1550 1550))
+      (outline (path signal 150  -1550 1550  1550 1550))
+      (pin Rect[A]Pad_2032x1727.2_um 1 0 0)
+      (pin Oval[A]Pad_2032x1727.2_um 2 0 -2540)
+      (pin Oval[A]Pad_2032x1727.2_um 3 0 -5080)
+      (pin Oval[A]Pad_2032x1727.2_um 4 0 -7620)
+      (pin Oval[A]Pad_2032x1727.2_um 5 0 -10160)
+      (pin Oval[A]Pad_2032x1727.2_um 6 0 -12700)
+      (pin Oval[A]Pad_2032x1727.2_um 7 0 -15240)
+      (pin Oval[A]Pad_2032x1727.2_um 8 0 -17780)
+      (pin Oval[A]Pad_2032x1727.2_um 9 0 -20320)
+      (pin Oval[A]Pad_2032x1727.2_um 10 0 -22860)
+      (pin Oval[A]Pad_2032x1727.2_um 11 0 -25400)
+      (pin Oval[A]Pad_2032x1727.2_um 12 0 -27940)
+      (pin Oval[A]Pad_2032x1727.2_um 13 0 -30480)
+      (pin Oval[A]Pad_2032x1727.2_um 14 0 -33020)
+      (pin Oval[A]Pad_2032x1727.2_um 15 0 -35560)
+      (pin Oval[A]Pad_2032x1727.2_um 16 0 -38100)
+      (pin Oval[A]Pad_2032x1727.2_um 17 0 -40640)
+      (pin Oval[A]Pad_2032x1727.2_um 18 0 -43180)
+    )
+    (image "Mounting_Holes:MountingHole_3-5mm"
+      (outline (path signal 381  3500 0  3328.7 -1081.56  2831.56 -2057.25  2057.25 -2831.56
+            1081.56 -3328.7  0 -3500  -1081.56 -3328.7  -2057.25 -2831.56
+            -2831.56 -2057.25  -3328.7 -1081.56  -3500 0  -3328.7 1081.56
+            -2831.56 2057.25  -2057.25 2831.56  -1081.56 3328.7  0 3500
+            1081.56 3328.7  2057.25 2831.56  2831.56 2057.25  3328.7 1081.56))
+      (keepout "" (circle F.Cu 3500))
+      (keepout "" (circle B.Cu 3500))
+    )
+    (padstack Oval[A]Pad_2032x1727.2_um
+      (shape (path F.Cu 1727.2  -152.4 0  152.4 0))
+      (shape (path B.Cu 1727.2  -152.4 0  152.4 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2032x1727.2_um
+      (shape (rect F.Cu -1016 -863.6 1016 863.6))
+      (shape (rect B.Cu -1016 -863.6 1016 863.6))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_600x1550_um
+      (shape (rect F.Cu -300 -775 300 775))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1900x2400_um
+      (shape (rect F.Cu -950 -1200 950 1200))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net /VCC
+      (pins P1-1 P2-1 P3-1 P4-1 P5-1 P6-1 P7-1 P8-1 P9-1 P10-1 P11-1 P12-1 P13-1 P14-1
+        P15-1 P16-1 P17-20)
+    )
+    (net /IN4P
+      (pins P1-2 P17-8 P18-8)
+    )
+    (net /GND
+      (pins P1-3 P2-3 P3-3 P4-3 P5-3 P6-3 P7-3 P8-3 P9-3 P10-3 P11-3 P12-3 P13-3 P14-3
+        P15-3 P16-3 P17-1 P17-19 P18-1)
+    )
+    (net /IN3P
+      (pins P2-2 P17-6 P18-6)
+    )
+    (net /IN2P
+      (pins P3-2 P17-4 P18-4)
+    )
+    (net /IN1P
+      (pins P4-2 P17-2 P18-2)
+    )
+    (net /IN4N
+      (pins P5-2 P17-9 P18-9)
+    )
+    (net /IN3N
+      (pins P6-2 P17-7 P18-7)
+    )
+    (net /IN2N
+      (pins P7-2 P17-5 P18-5)
+    )
+    (net /IN1N
+      (pins P8-2 P17-3 P18-3)
+    )
+    (net /IN8P
+      (pins P9-2 P17-16 P18-16)
+    )
+    (net /IN7P
+      (pins P10-2 P17-14 P18-14)
+    )
+    (net /IN6P
+      (pins P11-2 P17-12 P18-12)
+    )
+    (net /IN5P
+      (pins P12-2 P17-10 P18-10)
+    )
+    (net /IN8N
+      (pins P13-2 P17-17 P18-17)
+    )
+    (net /IN7N
+      (pins P14-2 P17-15 P18-15)
+    )
+    (net /IN6N
+      (pins P15-2 P17-13 P18-13)
+    )
+    (net /IN5N
+      (pins P16-2 P17-11 P18-11)
+    )
+    (net /RLD
+      (pins P17-18 P18-18)
+    )
+    (class kicad_default "" /GND /IN1N /IN1P /IN2N /IN2P /IN3N /IN3P /IN4N
+      /IN4P /IN5N /IN5P /IN6N /IN6P /IN7N /IN7P /IN8N /IN8P /RLD /VCC
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

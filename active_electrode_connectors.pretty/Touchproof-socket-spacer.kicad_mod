@@ -1,0 +1,10 @@
+(module Touchproof-socket-spacer (layer F.Cu) (tedit 56C87B50)
+  (fp_text reference Touchproof-socket (at 0 -6.35) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0 6.35) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_circle (center 0 0) (end 4.8006 0) (layer F.SilkS) (width 0.381))
+  (pad "" thru_hole circle (at 0 0) (size 7.92988 7.92988) (drill 7.92988) (layers *.Cu))
+)

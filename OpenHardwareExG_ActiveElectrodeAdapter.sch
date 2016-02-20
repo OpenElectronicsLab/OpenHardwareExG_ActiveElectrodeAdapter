@@ -585,4 +585,19 @@ F 3 "" H 7000 3950 50  0000 C CNN
 	1    7000 3950
 	1    0    0    1   
 $EndComp
+$Comp
+L CONN_01X01 P19
+U 1 1 56C874FE
+P 1500 4000
+F 0 "P19" H 1500 4100 50  0000 C CNN
+F 1 "CONN_01X01" V 1600 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 1500 4000 50  0001 C CNN
+F 3 "" H 1500 4000 50  0000 C CNN
+	1    1500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4000 1300 4000
+Text Label 1000 4000 0    60   ~ 0
+RLD
 $EndSCHEMATC
